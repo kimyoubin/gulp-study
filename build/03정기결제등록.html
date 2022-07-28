@@ -111,9 +111,8 @@
             }
             
             this.parentNode.classList.add('tab__item--active');
-
             activeContent = this.getAttribute('href');
-
+            
             document.querySelector(activeContent).style.display = 'flex';
         });
     }

@@ -161,48 +161,22 @@
 <!-- footer(e) -->
 
 <script>
-    // variables
-    var accordionBtn = document.querySelectorAll('.agree__arrow');
-    var allTexts = document.querySelectorAll('.agree__content');
-    // var accIcon = document.querySelectorAll('.accIcon');
+    let accordionBtn = document.querySelectorAll('.agree__arrow');
+    let allTexts = document.querySelectorAll('.agree__content');
 
-    // event listener
-    accordionBtn.forEach(function (el) {
+    accordionBtn.forEach(function(el) {
         el.addEventListener('click', toggleAccordion)
     });
 
-    // function
     function toggleAccordion(el) {
-        // var allContent = document.querySelectorAll('.agree__content').classList;
-        var allContent = el.target.parentNode.nextElementSibling.classList;
-        // console.log(el);
+        let allContent = el.target.parentNode.nextElementSibling.classList;
         console.log(allContent);
         
-        // var targetAccIcon = el.currentTarget.children[0];
-        // var target = el.currentTarget;
-        
-        if (allContent.contains('agree__content--open')) {
+        if(allContent.contains('agree__content--open')) {
             allContent.remove('agree__content--open');
-            // targetAccIcon.classList.remove('anime');
-            // target.classList.remove('accordionTitleActive');
         } 
         else {
-            // accordionBtn.forEach(function (el) {
-            //     // el.classList.remove('accordionTitleActive');
-                
-            //     // allContent.forEach(function (el) {
-            //     //     el.classList.remove('agree__content--open');
-            //     // })
-                
-            //     // accIcon.forEach(function (el) {
-            //     // el.classList.remove('anime');
-            //     // }) 
-                
-            // })
-            
-                allContent.add('agree__content--open');
-                // target.classList.add('accordionTitleActive');
-                // targetAccIcon.classList.add('anime');
+            allContent.add('agree__content--open');
         }  
     }
 </script>

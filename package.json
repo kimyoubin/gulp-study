@@ -1,7 +1,7 @@
 {
-  "name": "Tmon Test",
+  "name": "TmonTest",
   "version": "1.0.0",
-  "description": "Tmon Test",
+  "description": "TmonTest",
   "repository": "git@github.com:kimyoubin/Tmon_markup_test.git",
   "author": "김유빈 <zxc858785871@gmail.com>",
   "license": "MIT",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "del": "4.1.1",
+    "gulp-cli": "^2.3.0",
     "gulp-html-tag-include": "^1.0.1",
     "gulp-image": "^6.2.1",
     "gulp-sass": "^5.1.0",

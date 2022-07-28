@@ -5,8 +5,6 @@ import image from "gulp-image";
 import gulp_sass from "gulp-sass";
 import node_sass from "node-sass";
 import include from "gulp-html-tag-include";
-// import gulp, {src, dest} from 'gulp';
-// import gulpFont from 'gulp-font';
 
 const sass = gulp_sass(node_sass);
 
@@ -22,10 +20,6 @@ const routes = {
         src: "src/img/*",
         dest: "build/img"
     },
-    // font: {
-    //     src: "src/font/*",
-    //     dest: "build/font"
-    // },
     scss: {
         watch: "src/scss/**/*.scss",
         src: "src/scss/common.scss",
@@ -48,18 +42,6 @@ const img = () => gulp
     .src(routes.img.src)
     .pipe(image())
     .pipe(gulp.dest(routes.img.dest));
-
-// const font = () => gulp
-//     .src(routes.font.src)
-//     .pipe(gulpFont({
-//         // ext: '.css',
-//         fontface: 'src/fontsss',
-//         relative: '/fontsss',
-//         dest: 'build',
-//         // embed: ['woff'],
-//         collate: false
-//     }))
-//     .pipe(gulp.dest(routes.font.dest));
 
 const styles = () => gulp
     .src(routes.scss.src)
