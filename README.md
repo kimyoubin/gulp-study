@@ -1,5 +1,7 @@
-# Tmon_markup_test
-Tmon markup test repository test
+## 작업자
+| 구분   |    내용    |
+|------|:--------:|
+| `퍼블` | 김유빈 |
 
 ## 개발 환경
 | 구분 |                           내용                           |
@@ -9,6 +11,11 @@ Tmon markup test repository test
 | `Build` |                          gulp                           |
 
 ## 프로젝트 최초 세팅
-1. `yarn install` 로 종속성 설치
-2. `yarn dev` 로 서버 실행
+1. `yarn dev` 로 서버 실행
 http://localhost:8000/
+
+---
+gulp로 프로젝트 셋팅을 하여, Task를 만들어 image나 scss.. 등등 컴파일 작업에 생산성 향상 도움을 주었다.
+추후 유지보수를 위하여 class는 직관적일 수 있게 네이밍 하였고, 이름이나 마크업 구조를 고민하면서 작업하였다.
+bem css 방식을 사용하여 재사용이 가능한 독립적인 컴포넌트는 블럭으로 만들었고,
+scss 파일도 컴포넌트 마다 쪼개서 작업하여 추후 유지보수나 인수인계에 수월하도록 작업하였다.
