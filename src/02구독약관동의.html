@@ -139,7 +139,6 @@
 
 <script>
     let accordionBtn = document.querySelectorAll('.agree__arrow');
-    let allTexts = document.querySelectorAll('.agree__content');
 
     accordionBtn.forEach(function(el) {
         el.addEventListener('click', toggleAccordion)
@@ -147,7 +146,7 @@
 
     function toggleAccordion(el) {
         let allContent = el.target.parentNode.nextElementSibling.classList;
-        console.log(allContent);
+        // console.log(allContent);
         
         if(allContent.contains('agree__content--open')) {
             allContent.remove('agree__content--open');

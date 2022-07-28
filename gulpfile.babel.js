@@ -51,7 +51,6 @@ const styles = () => gulp
 const watch = () => {
     gulp.watch(routes.html.watch, html_include);
     gulp.watch(routes.img.src, img);
-    // gulp.watch(routes.font.src, font);
     gulp.watch(routes.scss.watch, styles);
 }  
 
