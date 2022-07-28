@@ -1,0 +1,56 @@
+/*
+* File		: button.css
+* Author    : kimyoubin
+* Version	: 1.0
+*/
+
+button[type=button] {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fix-button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include display-flex;
+    height: 80px; 
+    box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+
+    .inner {
+        width: 100%;
+    }
+
+    &__button {
+        height: 50px;
+        background: $mainGradient;
+        font-size: 18px;
+        color: #fff;
+
+        &--disable {
+            background: #c2c7cc;
+        }
+    }
+}
+
+.button-box {
+    &__button {
+        height: 45px;
+        margin-bottom: 8px;
+        background-color: $primary;
+        font-size: 15px;
+        color: #fff;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &--line {
+            background-color: #fff;
+            border: 1px solid $primary;
+            color: $primary !important;
+        }
+    }
+}

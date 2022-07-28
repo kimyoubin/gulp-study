@@ -1,0 +1,54 @@
+/*
+* File		: icon.css
+* Author    : kimyoubin
+* Version	: 1.0
+*/
+
+
+.ico-close {
+    // @include icon-close();
+    text-indent: -9999px;
+
+    &.type1 {
+        @include icon-close(17px, 2px, #333, 10px, inline-block, relative);    
+    }
+
+    &.type2 {
+        @include icon-close(9px, 1px, $primary, 8px, inline-block, relative);     
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid $primary;
+    }
+}
+
+.ico-triangle {
+    // @include icon-triangle(); 
+    &.down {
+        @include icon-triangle('down', 30px, 15px, #000, inline-block); 
+    }
+    &.right {
+        @include icon-triangle('right',30px, 50px, #333, inline-block); 
+    }
+}
+
+.ico-bullet {
+    // @include icon-bullet(); 
+    text-indent: -9999px;
+
+    &.down {
+        @include icon-bullet('down', 15px, 7px, 1px, #222, inline-block, relative);
+    }
+}
+
+.ico-arrow {
+    // @include icon-arrow(); 
+    text-indent: -9999px;
+    
+    &.left {
+        @include icon-arrow('left', 20px, 20px, 2px, #333, inline-block, relative);
+    }
+}
+
+.ico-hamburger {
+    @include icon-hamburger(20px, 3px, 6px, #333, 0); 
+}

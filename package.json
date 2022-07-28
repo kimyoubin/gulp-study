@@ -1,0 +1,28 @@
+{
+  "name": "Tmon Test",
+  "version": "1.0.0",
+  "description": "Tmon Test",
+  "repository": "git@github.com:kimyoubin/Tmon_markup_test.git",
+  "author": "김유빈 <zxc858785871@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/register": "^7.18.9",
+    "gulp": "^4.0.2",
+    "gulp-font": "^1.0.4",
+    "gulp-pug": "^5.0.0"
+  },
+  "dependencies": {
+    "del": "4.1.1",
+    "gulp-html-tag-include": "^1.0.1",
+    "gulp-image": "^6.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^7.0.1"
+  }
+}

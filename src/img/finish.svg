@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="107px" viewBox="0 0 208 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7AE4EDB7-7A7D-4E95-B102-829DEBBF3D62</title>
+    <defs>
+        <linearGradient x1="-1.72413793%" y1="0%" x2="101.724138%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5558A" offset="0%"></stop>
+            <stop stop-color="#FD41DC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="[MW]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04구독서비스-신청완료" transform="translate(-76.000000, -173.000000)">
+            <g id="Group-4" transform="translate(76.000000, 173.000000)">
+                <rect id="Rectangle" x="0" y="0" width="208" height="107"></rect>
+                <g id="Group-3" transform="translate(79.000000, 57.000000)">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="50" height="50" rx="25"></rect>
+                    <polyline id="Path" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" points="12.9310345 26.2030077 22.1680321 33.6971756 37.9310345 16.3793103"></polyline>
+                </g>
+                <polygon id="Rectangle" fill="#7ACCFF" transform="translate(61.200000, 7.000000) scale(-1, 1) translate(-61.200000, -7.000000) " points="58 5 62 5 64.4 9 60.4 9"></polygon>
+                <g id="Group" transform="translate(42.973602, 47.817955) scale(-1, 1) translate(-42.973602, -47.817955) translate(39.057312, 41.668223)">
+                    <polygon id="Rectangle-Copy-8" fill="#FFEB93" transform="translate(3.444946, 7.815621) scale(-1, -1) translate(-3.444946, -7.815621) " points="0 3.33177738 4.3061827 3.33177738 6.88989232 12.2994654 2.58370962 12.2994654"></polygon>
+                    <polygon id="Rectangle-Copy-9" fill="#FFA17A" transform="translate(4.861237, 3.696234) rotate(-75.000000) translate(-4.861237, -3.696234) " points="1.62663441 1.48678136 5.61699728 1.57140502 8.09583868 5.90568708 4.1054758 5.82106342"></polygon>
+                </g>
+                <polygon id="Rectangle-Copy-6" fill="#FFEB93" transform="translate(162.963446, 99.151290) rotate(146.000000) translate(-162.963446, -99.151290) " points="158.163446 96.1512904 164.163446 96.1512904 167.763446 102.15129 161.763446 102.15129"></polygon>
+                <polygon id="Rectangle-Copy" fill="#FFE05B" transform="translate(173.000000, 44.500000) scale(-1, 1) translate(-173.000000, -44.500000) " points="169 42 174 42 177 47 172 47"></polygon>
+                <polygon id="Rectangle-Copy-2" fill="#FF7AD0" transform="translate(163.000000, 56.500000) scale(-1, 1) rotate(-45.000000) translate(-163.000000, -56.500000) " points="160.414214 54 165.414214 54 165.585786 59 160.585786 59"></polygon>
+                <polygon id="Rectangle-Copy-5" fill="#FF7AD0" transform="translate(13.664214, 63.957107) scale(-1, 1) rotate(-45.000000) translate(-13.664214, -63.957107) " points="11.1642136 63.7937259 14.4757628 61.306403 16.1642136 64.1204876 12.8526643 66.6078106"></polygon>
+                <polygon id="Rectangle-Copy-7" fill="#7AA8FF" transform="translate(106.045406, 30.627069) rotate(-45.000000) translate(-106.045406, -30.627069) " points="102.80315 28.1193243 107.80315 28.1193243 109.287662 33.1348128 104.287662 33.1348128"></polygon>
+                <polygon id="Rectangle-Copy-3" fill="#FFA17A" transform="translate(142.000000, 7.000000) scale(-1, 1) rotate(-75.000000) translate(-142.000000, -7.000000) " points="136.551111 4.88822857 144.448889 4.11177143 147.448889 9.11177143 139.551111 9.88822857"></polygon>
+                <polygon id="Rectangle-Copy-4" fill="#FFA17A" transform="translate(35.000000, 98.500000) rotate(-75.000000) translate(-35.000000, -98.500000) " points="31 96 36 96 39 101 34 101"></polygon>
+                <polygon id="Rectangle-Copy-10" fill="#7ACCFF" transform="translate(196.119964, 70.786662) rotate(-75.000000) translate(-196.119964, -70.786662) " points="192.624628 69.0625184 197.55648 68.5448803 199.615299 72.5108061 194.683447 73.0284442"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
